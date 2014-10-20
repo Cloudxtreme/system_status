@@ -2,6 +2,7 @@
 # mailq 查看邮件队列
 # cat /var/log/maillog 查看发的邮件
 # cat /var/log/maillog |wc -l 查看发的邮件数
+# /usr/sbin/sendmail -q -v  强制邮件队列
 
 
 yum install -y sendmail sendmail-cf dovecot cyrus-sasl cyrus-sasl-md5 cyrus-sasl-plain cyrus-sasl-lib
